@@ -90,8 +90,8 @@ course-registration-deadline,data/dang-ky-hoc-phan/hoc-phan.md,Hạn đăng ký 
 
 ## 6. Checklist trước benchmark
 
-- [ ] Có 5–10 file cùng một chủ đề, `doc_id` không trùng.
-- [ ] Mỗi file có đủ metadata bắt buộc (`doc_id`, `title`, `source_url`, `retrieved_at`, `document_version`, `audience`); `sources.csv` khớp một-một với file.
-- [ ] `audience` có ít nhất 2 giá trị khác nhau trong bộ tài liệu — nếu chỉ một giá trị thì `metadata_filter` không có gì để lọc.
-- [ ] URL là nguồn gốc, truy cập được, và dữ liệu không nhạy cảm.
+- [V] Có 5–10 file cùng một chủ đề, `doc_id` không trùng.
+- [V] Mỗi file có đủ metadata bắt buộc (`doc_id`, `title`, `source_url`, `retrieved_at`, `document_version`, `audience`); `sources.csv` khớp một-một với file.
+- [V] `audience` có ít nhất 2 giá trị khác nhau trong bộ tài liệu — nếu chỉ một giá trị thì `metadata_filter` không có gì để lọc.
+- [V] URL là nguồn gốc, truy cập được, và dữ liệu không nhạy cảm.
 - [ ] Cả 5 benchmark query đều kiểm chứng được từ corpus, và ít nhất một câu cần `metadata_filter={"audience": "student"}` mới trả lời đúng.
